@@ -1,0 +1,38 @@
+[2022-03-21 20:04:58.834] [GIT  ] [/workspace] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 56 ms
+
+[2022-03-21 20:04:58.836] [GIT  ] [/workspace/tests/Unit/UseCase/Category] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 17 ms
+
+[2022-03-21 20:07:05.925] [GIT  ] [/workspace/tests/Unit/UseCase/Category] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 10 ms
+
+[2022-03-21 20:20:19.703] [GIT  ] [/workspace/database/migrations] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 35 ms
+
+[2022-03-21 20:24:16.368] [GIT  ] [/workspace/app/Models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 25 ms
+
+[2022-03-21 20:27:52.658] [GIT  ] [/workspace] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 27 ms
+
+[2022-03-21 20:31:20.175] [GIT  ] [/workspace/tests/Unit/App/Models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 13 ms
+
+[2022-03-21 21:19:01.828] [GIT  ] [/workspace/tests/Unit/App/Models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 12 ms
+
+[2022-03-21 21:31:22.709] [GIT  ] [/workspace] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 16 ms
+
+[2022-03-21 21:33:29.336] [GIT  ] [/workspace] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 14 ms
+
+[2022-03-21 21:34:16.125] [GIT  ] [/workspace] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 27 ms
+
+[2022-03-21 21:35:26.391] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 25 ms
+
+[2022-03-21 21:35:37.329] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 31 ms
+
+[2022-03-21 21:36:20.761] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 31 ms
+
+[2022-03-21 21:36:28.776] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 27 ms
+
+[2022-03-21 21:38:23.984] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 32 ms
+
+[2022-03-21 21:38:34.112] [GIT  ] [/workspace] git blame --root --incremental -- .gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .gitignore • no such ref: HEAD • 41 ms
+
+[2022-03-21 21:38:44.799] [GIT  ] [/workspace] git blame --root --incremental -- .ssh/known_hosts • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .ssh/known_hosts • no such ref: HEAD • 40 ms
+
+[2022-03-21 21:39:17.136] [GIT  ] [/workspace] git blame --root --incremental -- database/migrations/2014_10_12_000000_create_users_table.php • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- database/migrations/2014_10_12_000000_create_users_table.php • no such ref: HEAD • 26 ms
+

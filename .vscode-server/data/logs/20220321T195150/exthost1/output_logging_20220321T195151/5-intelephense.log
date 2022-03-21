@@ -1,0 +1,10 @@
+[Info  - 8:03:57 PM] Initialising intelephense 1.8.2
+[Info  - 8:03:57 PM] Initialised in 9 ms
+[Info  - 8:03:57 PM] Environment changed. Refreshing 1 in memory documents.
+[Info  - 8:03:57 PM] Searching file:///var/www/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.8.2/node_modules/intelephense/lib/stub for files to index.
+[Info  - 8:03:57 PM] Searching file:///workspace for files to index.
+[Warn  - 8:03:57 PM] file:///workspace/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 8:03:57 PM] Indexing started.
+[Info  - 8:04:03 PM] Indexing ended. 6438 files indexed in 5s.
+[Info  - 8:04:03 PM] Writing state to /var/www/.vscode-server/data/User/workspaceStorage/19d5e883007e9e5b9cf0a4f0d30b86c0/bmewburn.vscode-intelephense-client/6a012784.
+[Info  - 8:04:03 PM] Wrote state in 0.5s.

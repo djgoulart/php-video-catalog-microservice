@@ -1,0 +1,4 @@
+{
+  "intelephense.environment.phpVersion": "8.1.1",
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

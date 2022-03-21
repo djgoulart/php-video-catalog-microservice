@@ -1,0 +1,5 @@
+[2022-03-21 20:04:56.688] [remoteagent] [info] Extension host agent started.
+[2022-03-21 20:04:56.694] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-03-21 20:04:56.748] [remoteagent] [info] [127.0.0.1][7e73b873][ManagementConnection] New connection established.
+[2022-03-21 20:04:57.120] [remoteagent] [info] [127.0.0.1][c21ad738][ExtensionHostConnection] New connection established.
+[2022-03-21 20:04:57.127] [remoteagent] [info] [127.0.0.1][c21ad738][ExtensionHostConnection] <3133> Launched Extension Host Process.
