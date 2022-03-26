@@ -3,8 +3,10 @@
 namespace App\Repositories\Eloquent;
 
 use App\Models\Category as Model;
+use App\Repositories\Presenters\PaginationPresenter;
 use Core\Domain\Entity\Category;
 use Core\Domain\Repository\CategoryRepositoryInterface;
+use Core\Domain\Repository\PaginationInterface;
 
 class CategoryEloquentRepository implements CategoryRepositoryInterface
 {
@@ -20,11 +22,25 @@ class CategoryEloquentRepository implements CategoryRepositoryInterface
         string $orderColumn = 'id',
         string $order = 'DESC'
     ): array {
+        //TODO Criar testes e implementação.
         return [];
+    }
+
+    public function paginate(string $filter = '', string $orderColumn = 'id', string $order = 'DESC', int $page = 1, int $pageLimit = 15): PaginationInterface
+    {
+        $query = $this->model;
+        if ($filter) {
+            $query->where('name', 'LIKE', "%{$filter}%");
+        }
+        $query->orderBy('id', $order);
+        $paginator = $query->paginate();
+
+        return new PaginationPresenter($paginator);
     }
 
     public function findById(string $id): Category
     {
+        //TODO Criar testes e implementação.
         return new Category(name: 'name');
     }
 
@@ -42,11 +58,13 @@ class CategoryEloquentRepository implements CategoryRepositoryInterface
 
     public function update(Category $category): Category
     {
+        //TODO Criar testes e implementação.
         return new Category(name: 'name');
     }
 
     public function delete(string $id): bool
     {
+        //TODO Criar testes e implementação.
         return true;
     }
 
